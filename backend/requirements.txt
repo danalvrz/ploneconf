@@ -1,0 +1,9 @@
+-c constraints.txt
+-e src/ploneconf[test]
+
+zope.testrunner
+
+# Add required add-ons
+# (Ideally add them in setup.py for ploneconf)
+# collective.easyform
+pas.plugins.authomatic

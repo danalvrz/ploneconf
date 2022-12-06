@@ -1,0 +1,12 @@
+---
+users:
+  "plone":
+    name: "Plone installation"
+    email: "dante.alvrz@gmail.com"
+    public_keys:
+      - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDbN5f/meEONLqP0qoCL5WSw7dYPPIvBv4uZ7ohtmx7HguYAiviv/Ud4oZ3V7eWmkkOoEamYBT182B+2vCQgm08D5f2K+JcgQ6529Bm190BkJyumw+Khui/nt6mkE8zuJX2H7MhKEZwdk0OsB8Xp3VrSM/7uUwCueZwVSwK88YpjYzsdjW264oskZZTkSJ8fMJkbyF85c2xn0gjtRbVuNTzoHpi6wVMuMDJ+lhl33LL2amTqKA2oti4pDyHXd+IYYboOJ/tCtAuLFBeMDUlmmL1iRZHCxXHIXV/hjegSvAPI4BsEKAg+dBj8m3/8QXAyhFURBBsy2FBpxsbmx8sgPRctU8kp9abpt+Ju4z3vaR1b4jxQekHvabGBhl4pik2AHlT6BxLrnqofXKea/iqhsnticGAEMAW8XFdOrXyh30VhhxP899rWEWNLAPfFecesx19R1Ue01dihX1jNS/e6LYoyGJwGkTtahNjdl5WzRAkOuM4uO5n/APb4D+8jzsaPRE="
+    state: present
+    shell: "/bin/bash"
+    groups:
+      - "docker"
+      - "plone"
